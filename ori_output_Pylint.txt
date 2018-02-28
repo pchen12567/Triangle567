@@ -1,0 +1,111 @@
+Original output of file: "Triangle.py"
+
+No config file found, using default configuration
+************* Module Triangle
+C: 15, 0: Trailing whitespace (trailing-whitespace)
+C: 16, 0: Trailing whitespace (trailing-whitespace)
+C: 17, 0: Trailing whitespace (trailing-whitespace)
+C: 20, 0: Trailing whitespace (trailing-whitespace)
+C: 27, 0: Trailing whitespace (trailing-whitespace)
+C: 38, 0: Trailing whitespace (trailing-whitespace)
+W: 41, 0: Unnecessary semicolon (unnecessary-semicolon)
+C: 43, 0: Trailing whitespace (trailing-whitespace)
+C: 50, 0: Trailing whitespace (trailing-whitespace)
+C: 53, 0: Line too long (117/100) (line-too-long)
+C: 13, 0: Invalid function name "classifyTriangle" (invalid-name)
+C: 13, 0: Invalid argument name "a" (invalid-name)
+C: 13, 0: Invalid argument name "b" (invalid-name)
+C: 13, 0: Invalid argument name "c" (invalid-name)
+R: 13, 0: Too many return statements (8/6) (too-many-return-statements)
+
+
+Report
+======
+16 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |19     |31.67 |19       |=          |
++----------+-------+------+---------+-----------+
+|docstring |25     |41.67 |25       |=          |
++----------+-------+------+---------+-----------+
+|comment   |9      |15.00 |9        |=          |
++----------+-------+------+---------+-----------+
+|empty     |7      |11.67 |7        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |13     |13       |=          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |=          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|trailing-whitespace        |8           |
++---------------------------+------------+
+|invalid-name               |4           |
++---------------------------+------------+
+|unnecessary-semicolon      |1           |
++---------------------------+------------+
+|too-many-return-statements |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.62/10 (previous run: 0.62/10, +0.00)
