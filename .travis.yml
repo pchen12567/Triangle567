@@ -1,7 +1,18 @@
 language: python
 python:
  - "3.6"
+ 
+dist: trusty
+sudo: required
+
+addons:
+ sonarcloud:
+ organization: "team6-ssw567-triangle567"
+ token: 50e8409bcb531bb9f00a379846471119759034ee
+ branches:
+ - sonarcloud
 
 # command to run tests
 script:
+ - sonar-scanner
  - python -m unittest TestTriangle
