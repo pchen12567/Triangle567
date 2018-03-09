@@ -6,12 +6,12 @@ dist: trusty
 sudo: required
 
 addons:
- sonarcloud:
- organization: "team6-ssw567-triangle567"
- token: f563760490ae1ea2acdc1d3d1601bfc8b6a9d7a1
- sonarqube:
-  branches:
-  - sonarcloud
+  sonarcloud:
+    organization: "team6-ssw567-triangle567"
+    token: 
+      secure: f563760490ae1ea2acdc1d3d1601bfc8b6a9d7a1
+    branches:
+      - sonarcloud
 
 # command to run tests
 script:
