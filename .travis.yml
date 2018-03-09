@@ -8,10 +8,10 @@ sudo: required
 addons:
  sonarcloud:
  organization: "team6-ssw567-triangle567"
- token: 50e8409bcb531bb9f00a379846471119759034ee
+ token: f563760490ae1ea2acdc1d3d1601bfc8b6a9d7a1
  sonarqube:
- branches:
- - sonarcloud
+  branches:
+  - sonarcloud
 
 # command to run tests
 script:
