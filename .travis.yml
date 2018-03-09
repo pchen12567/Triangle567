@@ -9,6 +9,7 @@ addons:
  sonarcloud:
  organization: "team6-ssw567-triangle567"
  token: 50e8409bcb531bb9f00a379846471119759034ee
+ sonarqube:
  branches:
  - sonarcloud
 
